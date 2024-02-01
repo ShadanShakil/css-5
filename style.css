@@ -65,6 +65,7 @@ nav {
 }
 
 /* nav ends here! */
+/* started button  */
 /* page 1 */
 #main {
     display: flex;
@@ -74,7 +75,7 @@ nav {
 }
 
 #main-heading {
-    /* border: 2px solid black ; */
+    border: 2px solid black ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,6 +105,22 @@ nav {
     color: green;
     fill: green;
 }
+#btn-cont{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+#start-btn{
+    border: 2px solid black;
+    font-size: 3rem;
+    padding: 8px 16px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+/* started button ends here! */
 
 #main-pic {
     /* border: 2px solid black; */
